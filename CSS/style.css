@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin: 0%;
+    font-family: roboto, 'Times New Roman', Times, serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    border: 3px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 10px 0px 10px 0px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited, a:active{
+    color: black;
+}
